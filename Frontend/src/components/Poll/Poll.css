@@ -1,0 +1,137 @@
+/* Basic Reset */
+/* html, body {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  overflow: hidden; Prevent scrolling
+  margin: 0;
+  padding: 0;
+} */
+
+/* Container Styling */
+.container {
+  border: 10px solid black;
+  /* border-width: 2vh; */
+  /* border: 2vw black; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://i.pinimg.com/736x/6b/50/0d/6b500d12c5024b582a7e15367fce0cfc.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.form-section {
+  width: 40%;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent background for container */
+  border-radius: 10px; /* Rounded corners for better visual appeal */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Form Labels */
+label {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #495057;
+}
+
+/* Input Styling */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ced4da;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #495057;
+  background-color: #f8f9fa;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* Option Section Styling */
+.option {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.option-card {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  border-color: #333;
+}
+
+.option-card:hover {
+  transform: translateY(-5px);
+  background-color: #f8f9fa; /* Hover effect */
+}
+
+.option-card label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #495057;
+}
+
+.option-card input {
+  font-size: 1em;
+  padding: 10px;
+  border: 2px solid #ced4da;
+  border-radius: 8px;
+  width: 100%;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.option-card input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* Submit Button Styling */
+.submit-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.submit-button {
+  font-size: 16px;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.submit-button:active {
+  background-color: #004080;
+  transform: scale(1);
+}

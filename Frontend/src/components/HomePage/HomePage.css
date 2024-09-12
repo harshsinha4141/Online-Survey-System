@@ -1,0 +1,269 @@
+/* Basic Reset */
+
+/* html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    overflow-x: hidden;
+} */
+
+/* Navigation Bar */
+.navbar {
+    height: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* Reduced padding to free up space */
+    background-color: #343a40;
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo h2 {
+    color: white;
+    font-size: 22px;
+    /* Reduced font size to match new navbar height */
+}
+
+.navbar-search {
+    flex: 1;
+    max-width: 400px;
+    margin: 0 20px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 8px;
+    /* Adjusted padding */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #495057;
+    color: white;
+}
+
+.navbar-buttons {
+    margin-left: 1vw;
+}
+
+.portal-button {
+    padding: 8px 18px;
+    /* Adjusted button padding */
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.portal-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Home Page Wrapper */
+.home-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* Increased height by 20% and adjusted for reduced navbar height */
+    padding-top: 80px;
+    /* Reduced padding slightly to match new navbar height */
+}
+
+/* Home Page Header */
+.home-header-parent {
+    width: 100%;
+    /*margin-top: 20px; Ensures the header is not hidden under the navbar*/
+}
+
+.home-header {
+    text-align: center;
+    padding: 15px 10px;
+    /* Reduced padding for less bulk */
+    background-color: #007bff;
+    color: white;
+    border-bottom: 4px solid #0056b3;
+    position: relative;
+    /* Ensures it's positioned correctly */
+    z-index: 1;
+    /* Ensures it's above other elements */
+}
+
+.home-header h1 {
+    font-size: 36px;
+    /* Increased font size for better visibility */
+    margin-bottom: 5px;
+    /* Reduced margin to bring the paragraph closer */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Added text shadow for better contrast */
+}
+
+.home-header p {
+    font-size: 18px;
+    /* Increased font size for better readability */
+    margin-top: 5px;
+    /* Reduced margin to reduce the gap */
+    color: white;
+    /* Ensure the paragraph text is also visible */
+}
+
+/* Survey Cards */
+.survey-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    width: 100%;
+}
+
+.survey-card {
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 30vw;
+    /* Adjust the number for more or fewer cards in a row */
+    max-width: 350px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 2rem;
+}
+
+.survey-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.survey-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.survey-card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+/* Footer */
+.home-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+    border-top: 1px solid #495057;
+    margin-top: auto;
+}
+
+/* Main Section */
+.main {
+    /* height: auto; */
+    margin-top: 8vw;
+    display: flex;
+    flex-grow: 1;
+    overflow: auto;
+    width: 100vw;
+    height: 100vh;
+    /*Adjusted based on the reduced navbar height */
+}
+
+.main-profile {
+    /* height: 100%; */
+    /* position: fixed; */
+    flex: 0 0 20%;
+    padding: 20px;
+    background-color: #e9ecef;
+    border-right: 1px solid #dee2e6;
+    overflow-y: auto;
+    /* height: calc(100vh - 80px); Ensure sidebar takes full height minus navbar */
+}
+
+.profile {
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-head {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #007bff;
+}
+
+.profile-mid {
+    margin-top: 20px;
+}
+
+.profile-mid h2 {
+    color: #333;
+    font-size: 1.4rem;
+    margin: 15px 0;
+    padding: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3s ease, padding-left 0.3s ease;
+    border-radius: 5px;
+}
+
+.profile-mid h2:hover {
+    color: #007bff;
+    background-color: #ffffff;
+    padding-left: 20px;
+}
+
+.profile-mid h2:active {
+    color: #0056b3;
+    background-color: #e9ecef;
+}
+
+.profile-mid h2:focus {
+    outline: none;
+    background-color: #e9ecef;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .main-profile {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #dee2e6;
+        height: auto;
+    }
+
+    .survey-cards {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .survey-card {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .navbar-search {
+        margin: 10px 0;
+    }
+}

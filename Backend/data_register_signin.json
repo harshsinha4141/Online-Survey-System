@@ -1,0 +1,42 @@
+[
+    {
+        "first_name": "Harsh",
+        "last_name": "Sinha",
+        "email": "harsh@gmail.com",
+        "password": "harsh@123",
+        "confirm_password": "harsh@123",
+        "dob": "20",
+        "address": "Banur",
+        "mobile_no": "9122357161"
+    },
+    {
+        "first_name": "Arydeep",
+        "last_name": "Sah",
+        "email": "arydeep@gmail.com",
+        "password": "arydeep@123",
+        "confirm_password": "arydeep@123",
+        "dob": "20",
+        "address": "Banur",
+        "mobile_no": "8407871511"
+    },
+    {
+        "first_name": "Harshvardhan",
+        "last_name": "Singh",
+        "email": "harshvardhan@gmail.com",
+        "password": "harshvardhan123",
+        "confirm_password": "harshvardhan123",
+        "dob": "20",
+        "address": "Rajpura",
+        "mobile_no": "9876543219"
+    },
+    {
+        "first_name": "Harshit ",
+        "last_name": "Sharma",
+        "email": "harshit@gmail.com",
+        "password": "harshit123",
+        "confirm_password": "harshit123",
+        "dob": "20",
+        "address": "Banur",
+        "mobile_no": "9876543219"
+    }
+]

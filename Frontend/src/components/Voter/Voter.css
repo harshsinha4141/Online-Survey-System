@@ -1,0 +1,106 @@
+/* body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e9ecef;
+    color: #495057;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.body-voter-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 10px; /* Adjust padding for responsiveness */
+    background: url('https://i.pinimg.com/474x/ee/ae/fb/eeaefb286ea86a80047af99027c347b2.jpg') no-repeat center center/cover;
+}
+
+.voter-form-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 10px; /* Reduced gap for better spacing */
+    padding: 15px; /* Reduced padding for a more compact look */
+    width: 100%;
+    max-width: 500px; /* Reduced max-width for better fit */
+    background-color: #ffffff;
+    border: 1px solid #ced4da; /* Added border */
+    border-radius: 8px; /* Slightly smaller border radius */
+    box-shadow: 0 4px 8px rgba(239, 232, 232, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.voter-form-container:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: bounce 0.5s ease;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    color: #343a40;
+    font-size: 20px; /* Reduced font size */
+    font-weight: 600;
+}
+
+.form-group {
+    display: grid;
+    gap: 8px; /* Reduced gap between label and input/textarea */
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #495057;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px; /* Reduced padding */
+    border: 1px solid #ced4da;
+    border-radius: 6px; /* Reduced border radius */
+    font-size: 14px; /* Reduced font size */
+    color: #495057;
+    background-color: #f8f9fa;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+}
+
+textarea {
+    resize: none; /* Disable resizing */
+    min-height: 60px; /* Reduced minimum height */
+}
+
+.submit-button {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px; /* Reduced border radius */
+    font-size: 14px; /* Reduced font size */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.02); /* Reduced scale effect */
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}

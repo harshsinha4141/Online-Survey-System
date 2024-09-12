@@ -1,0 +1,151 @@
+/* Basic Reset */
+
+/* body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e9ecef;
+    color: #495057;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.5s ease;
+}
+
+body:hover {
+    background-color: #f1f3f5;
+} */
+
+/* body { */
+    /* font-family: 'Roboto', sans-serif; */
+    /* background-color: #e9ecef; */
+    /*background-image: url('https://i.pinimg.com/474x/82/3b/33/823b338b696fef229f4dcccc37d1d37e.jpg'); Add your background image here*/
+    /* background-size: cover; Cover the entire viewport */
+    /* background-position: center; Center the image */
+    /* color: #495057; */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100vh; */
+    /* transition: background-color 0.5s ease; */
+/* } */
+
+body:hover {
+    background-color: #f1f3f5;
+}
+
+.body-form-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: url('https://i.pinimg.com/474x/ee/ae/fb/eeaefb286ea86a80047af99027c347b2.jpg') no-repeat center center/cover;
+}
+
+.form-container {
+    margin-top: 7vh;
+    height: 90vh;
+    /* max-width: 400px; */
+    width: 40%;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(239, 232, 232, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    /* background: linear-gradient(135deg, rgba(0, 123, 255, 0.2) 0%, rgba(0, 123, 255, 0.1) 100%); */
+    transition: opacity 0.5s ease;
+    /* background-image: url("https://i.pinimg.com/474x/ff/8e/86/ff8e860957321ac094af6eb373ab7dde.jpg"); */
+}
+
+.form-container:hover {
+    transition: transform 0.5s ease;
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+h2:hover {
+    color: #007bff;
+    text-shadow: 0 4px 8px rgba(0, 123, 255, 0.5);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #495057;
+    transition: color 0.3s ease;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #495057;
+    background-color: #f8f9fa;
+    transition: border-color 0.3s, box-shadow 0.3s ease;
+    position: relative;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #6c757d;
+    transition: color 0.3s ease;
+}
+
+input:focus::placeholder, textarea:focus::placeholder {
+    color: #007bff;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.submit-button {
+    width: 40%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s ease;
+    display: block;
+    margin: 20px auto; /* Centers the button horizontally */
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.submit-button:focus {
+    outline: none;
+}

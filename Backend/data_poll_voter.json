@@ -1,0 +1,99 @@
+[
+    {
+        "data": [
+            {
+                "creator": {
+                    "id": "d564fc04-b303-435c-b09c-d377c47357ff",
+                    "name": "Harsh Sinha",
+                    "email": "harsh@gmail.com",
+                    "age": "20",
+                    "mobile_no": "9122357161",
+                    "password": "harsh@123",
+                    "questions": [
+                        {
+                            "poll_name": "Subject Survey",
+                            "question": "which subject is more interesting",
+                            "opt1": "DSA",
+                            "opt2": "Frontend",
+                            "opt3": "Backend",
+                            "opt4": "NOTA",
+                            "voters": [
+                                {
+                                    "id": "aabdca62-4eec-4fad-b9f2-424c353d12e9",
+                                    "name": "Arydeep Sah",
+                                    "email": "arydeep@gmail.com",
+                                    "age": "20",
+                                    "mobile_no": "8407871511",
+                                    "password": "arydeep@123",
+                                    "answer": "NOTA"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "creator": {
+                    "id": "1aa1b05c-32e8-4382-83fc-958268e6d442",
+                    "name": "Harshvardhan Singh",
+                    "email": "harshvardhan@gmail.com",
+                    "age": "20",
+                    "mobile_no": "9876543219",
+                    "password": "harshvardhan123",
+                    "questions": [
+                        {
+                            "poll_name": "Placement",
+                            "question": "which company is more favorable for most of the students ?",
+                            "opt1": "Amazon",
+                            "opt2": "Microsoft",
+                            "opt3": "Google",
+                            "opt4": "NOTA",
+                            "voters": [
+                                {
+                                    "id": "ec8c2c27-33fa-4132-b6f5-ec42728be9ca",
+                                    "name": "Harsh Sinha",
+                                    "email": "harsh@gmail.com",
+                                    "age": "20",
+                                    "mobile_no": "9876543219",
+                                    "password": "harsh123",
+                                    "answer": "NOTA"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "creator": {
+                    "id": "b7199299-60cb-4532-9608-4385fa696710",
+                    "name": "Harsh Sinha",
+                    "email": "harsh@gmail.com",
+                    "age": "18",
+                    "mobile_no": "9876543219",
+                    "password": "harsh@123",
+                    "questions": [
+                        {
+                            "poll_name": "Human Survey",
+                            "question": "Age",
+                            "opt1": "10",
+                            "opt2": "20",
+                            "opt3": "30",
+                            "opt4": "40",
+                            "voters": [
+                                {
+                                    "id": "34336faf-e695-46a8-b68d-5b891132d9c9",
+                                    "name": "Harsh Sinha",
+                                    "email": "harshit@gmail.com",
+                                    "age": "20",
+                                    "mobile_no": "9876543212",
+                                    "password": "harshit123",
+                                    "answer": "20"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+]
